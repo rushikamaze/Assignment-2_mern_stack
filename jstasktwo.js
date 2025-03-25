@@ -4,7 +4,7 @@ function sortString() {
     const sortedString = inputString
         .split('')  
         .sort()     
-        .join('');  
+        .join(''); 
 
     document.getElementById('result').textContent = 
         `Original: ${inputString}\nSorted: ${sortedString}`;
